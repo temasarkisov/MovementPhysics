@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6E82D22A2B8112CD002307B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E82D2292B8112CD002307B2 /* AppDelegate.swift */; };
-		6E82D22C2B8112CD002307B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E82D22B2B8112CD002307B2 /* SceneDelegate.swift */; };
 		6E82D22E2B8112CD002307B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E82D22D2B8112CD002307B2 /* ViewController.swift */; };
 		6E82D2312B8112CD002307B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E82D22F2B8112CD002307B2 /* Main.storyboard */; };
 		6E82D2332B8112D1002307B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E82D2322B8112D1002307B2 /* Assets.xcassets */; };
 		6E82D2362B8112D1002307B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E82D2342B8112D1002307B2 /* LaunchScreen.storyboard */; };
+		6E82D23F2B8112F6002307B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E82D23D2B8112F5002307B2 /* SceneDelegate.swift */; };
+		6E82D2402B8112F6002307B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E82D23E2B8112F6002307B2 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6E82D2262B8112CD002307B2 /* MovementPhysics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovementPhysics.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E82D2292B8112CD002307B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6E82D22B2B8112CD002307B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6E82D22D2B8112CD002307B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6E82D2302B8112CD002307B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6E82D2322B8112D1002307B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E82D2352B8112D1002307B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E82D2372B8112D1002307B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E82D23D2B8112F5002307B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6E82D23E2B8112F6002307B2 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +56,8 @@
 		6E82D2282B8112CD002307B2 /* MovementPhysics */ = {
 			isa = PBXGroup;
 			children = (
-				6E82D2292B8112CD002307B2 /* AppDelegate.swift */,
-				6E82D22B2B8112CD002307B2 /* SceneDelegate.swift */,
+				6E82D23E2B8112F6002307B2 /* AppDelegate.swift */,
+				6E82D23D2B8112F5002307B2 /* SceneDelegate.swift */,
 				6E82D22D2B8112CD002307B2 /* ViewController.swift */,
 				6E82D22F2B8112CD002307B2 /* Main.storyboard */,
 				6E82D2322B8112D1002307B2 /* Assets.xcassets */,
@@ -138,9 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E82D2402B8112F6002307B2 /* AppDelegate.swift in Sources */,
 				6E82D22E2B8112CD002307B2 /* ViewController.swift in Sources */,
-				6E82D22A2B8112CD002307B2 /* AppDelegate.swift in Sources */,
-				6E82D22C2B8112CD002307B2 /* SceneDelegate.swift in Sources */,
+				6E82D23F2B8112F6002307B2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
